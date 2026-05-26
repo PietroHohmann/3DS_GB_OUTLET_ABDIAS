@@ -11,6 +11,16 @@
     padding: 70px;
 }
 
-.centeralizar{
+.centralizar{
     text-align: center
+}
+
+.produtos img {
+    width:180px;
+    height:200px;
+    border-radius: 10px;
+}
+
+.produtos img:hover {
+    transform: scale(0.5);
 }
