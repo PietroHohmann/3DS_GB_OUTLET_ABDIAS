@@ -15,6 +15,14 @@
     text-align: center
 }
 
+.container{
+}
+
+.produtos{
+    display:flex;
+    justify-content:center;
+}
+
 .produtos img {
     width:180px;
     height:200px;
@@ -23,4 +31,13 @@
 
 .produtos img:hover {
     transform: scale(0.5);
+}
+
+.titulo_prod{
+    font-weight: bold;
+    font-family: Arial;
+    padding: 10px;
+    color:#4f4f4f;
+    display: flex;
+    justify-content:center;
 }
